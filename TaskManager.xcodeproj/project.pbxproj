@@ -17,6 +17,7 @@
 		5E5494AA2A97D04D00A0A455 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5494A92A97D04D00A0A455 /* SidebarView.swift */; };
 		5E5494AC2A97D05C00A0A455 /* StaticTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5494AB2A97D05C00A0A455 /* StaticTaskListView.swift */; };
 		5E5494AE2A987E4000A0A455 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5494AD2A987E4000A0A455 /* TaskListView.swift */; };
+		5E5494B02A9882D200A0A455 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5494AF2A9882D200A0A455 /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5E5494A92A97D04D00A0A455 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		5E5494AB2A97D05C00A0A455 /* StaticTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTaskListView.swift; sourceTree = "<group>"; };
 		5E5494AD2A987E4000A0A455 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		5E5494AF2A9882D200A0A455 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5E5494A92A97D04D00A0A455 /* SidebarView.swift */,
 				5E5494AD2A987E4000A0A455 /* TaskListView.swift */,
 				5E5494AB2A97D05C00A0A455 /* StaticTaskListView.swift */,
+				5E5494AF2A9882D200A0A455 /* TaskView.swift */,
 				5E5494912A97C26B00A0A455 /* ContentView.swift */,
 				5E5494932A97C26C00A0A455 /* Assets.xcassets */,
 				5E5494982A97C26C00A0A455 /* TaskManager.entitlements */,
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5494B02A9882D200A0A455 /* TaskView.swift in Sources */,
 				5E5494AC2A97D05C00A0A455 /* StaticTaskListView.swift in Sources */,
 				5E5494922A97C26B00A0A455 /* ContentView.swift in Sources */,
 				5E5494A02A97C2DE00A0A455 /* Task.swift in Sources */,
@@ -314,6 +318,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -341,6 +348,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
